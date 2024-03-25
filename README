@@ -1,0 +1,15 @@
+`1 2`
+
+Tema 1-RL Tica Ion Valentin
+
+Tabela de Adrese MAC (Tabela CAM)
+Învatare Dinamica: Switch-ul invata adresele MAC în mod dinamic și populeaza tabela de adrese MAC corespunzator.
+Mapare Interfete: Mapeaza fiecare adresa MAC la interfata corespunzatoare pentru a redirectiona cadrele in mod eficient.
+In cazul in care nu stie destinatia acelui mac_dest face broadcast
+
+Suport VLAN
+Etichetare si Detichetare VLAN: Switch-ul poate gestiona atat porturile de acces, cat și cele trunk, adaugand sau inlaturand etichetele VLAN dupa necesitate.
+Redirectionare Bazata pe VLAN: Asigura că cadrele sunt redirectionate doar in cadrul VLAN-urilor respective.
+
+Am incercat si rezolvarea partii de STP, insa nu am reusit. Am creat separarea porturilor pe tip cat si trimiterea pe porturile != "BLOCKED"
+Am creat si functiile de creare a pachetelor sub formatul cerut bpdu cat si de trimitere la fiecare secunda.

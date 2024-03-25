@@ -1,0 +1,11 @@
+Exception in thread Thread-1 (send_bdpu_every_sec):
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/vali/Desktop/Tema1_RL/tema1-public/switch.py", line 181, in send_bdpu_every_sec
+    send_to_link(port, data2, 46)
+  File "/home/vali/Desktop/Tema1_RL/tema1-public/wrapper.py", line 60, in send_to_link
+    result = lib.send_to_link(interface, c_buf, c_len)
+ctypes.ArgumentError: argument 1: TypeError: wrong type
